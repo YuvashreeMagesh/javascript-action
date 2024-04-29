@@ -1,6 +1,6 @@
 const core = require('@actions/core')
 const { wait } = require('./wait')
-
+let a=3
 /**
  * The main function for the action.
  * @returns {Promise<void>} Resolves when the action is complete.
